@@ -2,7 +2,7 @@
 
 Cordova plugin for switching between speaker and earpiece when playing audio.
 
-    cordova plugin add https://github.com/alongubkin/audiotoggle.git
+    cordova plugin add com.dooble.audiotoggle
     
 ### Supported Platforms
 
