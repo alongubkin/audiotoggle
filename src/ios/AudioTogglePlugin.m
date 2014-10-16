@@ -18,6 +18,10 @@
         AudioSessionSetProperty(kAudioSessionProperty_OverrideAudioRoute, sizeof(audioRouteOverride), &audioRouteOverride);
     } else if ([mode isEqualToString:@"speaker"]) {
         [session setCategory:AVAudioSessionCategorySoloAmbient error:&err];
+    } else if ([mode isEqualToString:@"normal"]) {
+        [session setCategory:AVAudioSessionCategorySoloAmbient error:&err];
+    } else if ([mode isEqualToString:@"ringtone"]) {
+        [session setCategory:AVAudioSessionCategorySoloAmbient error:&err];
     }
 }
 
